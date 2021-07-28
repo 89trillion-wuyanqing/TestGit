@@ -14,6 +14,7 @@ var HandleHelloWorld = func(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
+	fmt.Println("bugfix2修改")
 	/*user :=model.Users{}
 	user.SetId("1234")
 	user.Age=22
