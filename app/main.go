@@ -42,6 +42,7 @@ func main() {
 	resp := w.Result()
 	body, _ := ioutil.ReadAll(resp.Body)
 
+	fmt.Println("34556")
 	fmt.Println(resp.StatusCode)
 	fmt.Println(resp.Header.Get("Content-Type"))
 	fmt.Println(string(body))
